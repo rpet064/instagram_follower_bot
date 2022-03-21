@@ -9,9 +9,9 @@ class InstaBot:
         self.chrome_driver_path = "C:/Users/robertp/Development/chromedriver.exe"
         self.driver = webdriver.Chrome(self.chrome_driver_path)
         self.url = "https://www.instagram.com/"
-        self.email = "robertp@papint.school.nz"
-        self.password = "#rrRRPWP5916"
-        self.username = "rpet065"
+        self.email = "YOUR_EMAIL"
+        self.password = "YOUR_PASSWORD"
+        self.username = "YOUR_USERNAME"
         self.similar_account = "https://www.instagram.com/cookingwithayeh/"
 
     def login(self):
